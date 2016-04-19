@@ -1,2 +1,3 @@
 # CodeEval_Challenges
-Solutions for codeeval challenges
+Solutions for codeeval challenges in Java and maybe Python depends on my mood :p
+
