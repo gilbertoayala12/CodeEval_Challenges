@@ -13,7 +13,7 @@ public class Main {
         return reversed;
     }
 
-    public static boolean isPrime(int num) {
+    public static boolean isPalindrome(int num) {
         if (num == reversed(num)) {
             return true;
         } else {
@@ -35,7 +35,7 @@ public class Main {
             while (true) {
             suma = num + reversed;
             cont++;
-            if (isPrime(suma)) {
+            if (isPalindrome(suma)) {
                 System.out.println(cont + " " + suma);
                 break;
             } else {
